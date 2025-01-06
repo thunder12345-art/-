@@ -1,0 +1,18 @@
+
+pipenv --venv查看虚拟环境
+win+R  cmd或者
+在E:/python/python中输入cmd 再enter 
+
+pipenv shell 进入虚拟机
+
+pip install需要的库
+
+
+打包pyinstaller -F -w -i iii.ico Gammaadjcore20150106.py
+
+
+pyinstaller -F -w -i icon.ico myscript.py
+
+pip uninstall 删除刚刚安装的包
+
+在C:\Users\10060327\dist找到打包好的软件
