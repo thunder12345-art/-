@@ -1,0 +1,15 @@
+新建一个SplashModule.py文件，其内容如下
+
+from contextlib import suppress
+
+with suppress(ModuleNotFoundError):
+    import pyi_splash
+    pyi_splash.close()
+
+在被打包的主python文件开头输入输入下面这行代码
+
+import SplashModule
+
+使用下面的pyinstaller的命令打包，就可以让启动画面在主程序起来后随之关闭了。
+
+pyinstaller -F -w --splash=<path-to-image> --icon=<path-to-icon> <your-script>.py
