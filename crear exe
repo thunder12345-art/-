@@ -1,0 +1,35 @@
+
+pipenv --venv查看虚拟环境
+win+R  cmd或者
+在E:/python/python中输入cmd 再enter 
+
+pipenv shell 进入虚拟机
+
+pip install需要的库
+
+
+#打包增加过渡动画，需要增加SplashModule.py
+并在主程序第一行增加import SplashModule 
+pyinstaller -F -w --splash="hunder.png" --icon="hunder.ico" soft0128.py
+
+
+pyinstaller -F -w -i icon.ico myscript.py
+
+pip uninstall 删除刚刚安装的包
+pip uninstall requests numpy pandas
+
+pip install pyinstaller
+pip install pywin32
+pip install --upgrade pyinstaller
+
+在C:\Users\10060327\dist找到打包好的软件
+
+altgraph                  0.17.4
+packaging                 24.2
+pefile                    2023.2.7
+pip                       24.3.1
+pyinstaller               6.11.1
+pyinstaller-hooks-contrib 2025.0
+pywin32-ctypes            0.2.3
+setuptools                75.8.0
+
